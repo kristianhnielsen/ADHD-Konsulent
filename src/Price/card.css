@@ -1,0 +1,80 @@
+.card * {
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: white;
+    padding: 0.5rem 0.8rem 2rem;
+    margin: 1rem;
+    border: 1px solid var(--info-button-text-color);
+    box-shadow: 0 4px 4px rgb(70, 70, 70);
+}
+
+.card p {
+    color: var(--primary-theme);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-button a{
+    padding: 15px 50px;
+    margin: 2rem 0 0;
+    border-radius: 30px;
+    border: 2px solid var(--primary-theme);
+    color: var(--background-color);
+    background-color: var(--primary-theme);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card:nth-child(1) {
+    background-color: var(--primary-theme);
+}
+
+.card:nth-child(1) p, .card:nth-child(1) h2 {
+    color: var(--background-color);
+}
+
+.card:nth-child(1) a {
+    background-color: white;
+    color: var(--primary-theme);
+    border-color: var(--background-color);
+}
+
+.card a:hover, .card a:active {
+    background-color: var(--background-color);
+    color: var(--primary-theme);
+    border-color: var(--primary-theme);
+}
+
+.card:nth-child(1) a:hover, .card:nth-child(1) a:active {
+    background-color: var(--primary-theme);
+    color: white;
+    border-color: var(--background-color);
+}
+
+
+
+
+@media (min-width: 700px) {
+
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card h2 {
+        font-size: 1.7rem;
+    }
+}
+

@@ -1,0 +1,141 @@
+:root {
+    --menuShowSpeed: 0.3s;
+    --navbar-height: 70px;
+    --mobile-dropdown-color: rgba(162, 37, 66, 1);
+}
+
+.desktop-nav { display: none; }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--navbar-height);
+    border-bottom: solid 5px var(--primary-theme);
+}
+
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.mobile-nav>label {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.company-name {
+    font-size: 0.7rem;
+    padding-left: 1.5rem;
+    width: 20ch;
+}
+
+
+.menuTrigger { display: none; }
+
+.menuTrigger:checked ~ nav { 
+    display: flex;
+    right: 0; 
+}
+
+.menuTrigger:checked ~ .hamburger span:first-child {
+    top: 7px;
+    transform: rotate(45deg);
+}
+.menuTrigger:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+.menuTrigger:checked ~ .hamburger span:last-child {
+    top: -8px;
+    transform: rotate(-45deg);
+}
+
+.hamburger {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 30px;
+    top: 0;
+    background: black;
+    display: block;
+    border-radius: 50px;
+    position: relative;
+    transition-property: transform top opacity;
+    transition: var(--menuShowSpeed) ease-in-out;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 400px;
+    padding-right: 30px;
+    position: absolute;
+    top: 75px;
+    right: -110vw;
+    width: 100vw;
+    background-color: var(--primary-theme);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.445);
+    transition-property: transform display;
+    transition: var(--menuShowSpeed) right ease-in-out;    
+}
+
+.navbar a {
+    color: white;
+}
+
+
+@media (min-width: 800px) {
+    header {
+        justify-content: center;
+    }
+    
+    .desktop-nav {
+        display: flex;
+        width: 100vw;
+        max-width: 1000px;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+    
+    .navbar {
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: static;
+        width: 50%;
+        height: auto;
+        border-bottom: none;
+        background-color: transparent;
+    }
+
+    .navbar a {
+        color: black;
+        font-size: 1rem;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .navbar a:hover {
+        transform: scale(1.2);
+        transform-origin: top;
+        text-decoration: underline;
+    }
+    
+
+    .mobile-nav {
+        display: none;
+    }
+
+}

@@ -1,0 +1,16 @@
+.cards {
+    margin: 1rem 1rem;
+}
+
+
+
+
+@media (min-width: 700px) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+

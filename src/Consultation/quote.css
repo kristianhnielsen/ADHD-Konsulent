@@ -1,0 +1,14 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.quote svg:last-child {
+    align-self: flex-end;
+}
+
+
+
+@media (min-width: 700px) {
+}

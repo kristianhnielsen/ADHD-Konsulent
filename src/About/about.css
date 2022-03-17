@@ -1,0 +1,21 @@
+.about .left-column article{
+    margin: 0 2rem;
+}
+
+.about .profile-photo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about .profile-photo img {
+    border-radius: 50%;
+    width: max(60%, 150px);
+    height: auto;
+    max-width: 200px;
+    box-shadow: 0 2px 5px black;
+}
+
+
+@media (min-width: 700px) {
+}
