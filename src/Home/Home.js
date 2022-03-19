@@ -13,7 +13,7 @@ const Home = () => {
             </Helmet>
             <section className="main-content">
                 <h1 className='primary-bottom-border'>ADHD OG AUTISME KONSULENT</h1>
-                <p>Mere end 20 års erfaring som familiebehandler og konsulent i familier med børn med ADHD / ADD og autismespektrumforstyrrelser</p>
+                <p>Mere end 20 års erfaring som familiebehandler og specialpædagogisk konsulent i familier med børn med ADHD / ADD og autismespektrumforstyrrelser</p>
                 <div className="button-container">
                     <Link to="/contact" className='main-button button'>Gratis afklarende samtale</Link>
                     <Link to="/radgivning" className='info-button button'>Mere information</Link>

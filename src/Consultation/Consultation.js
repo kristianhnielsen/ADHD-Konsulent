@@ -16,18 +16,19 @@ const Consultation = () => {
             <section className="grid-columns-two">
                 <section className="left-column">
                     <article>
-                        <h2>Jeg tilrettelægger <u>altid</u> forløbet sammen med familien</h2>
-                        <p>Få støtte til at få jeres private netværk til at forstå hvordan det er i lige netop jeres familie Så det bliver nemmere for dem at støtte jeres familie.</p>
+                        <h2>Værktøjer til at få en bedre forståelse og indsigt i ADHD/autisme, til at mindske konflikter i hverdagen</h2>
+                        <p>Lær at forstå og styke dit barns selvtillid og selværd.</p>
+                        <p>Lær at hjælpe dit barn med at regulere deres følelser.</p>
+
                         <div className="results">
                             <ul>
                                 <li>Lær hvordan du kan styrke dit barns selvværd</li>
-                                <li>Få bedre forståelse og indsigt i ADHD/AUTISME</li>
-                                <li>Få værktøjer til at mindske konflikter i hverdagen</li>
                                 <li>Forstå dit barns adfærd og reaktionsmønstre</li>
                                 <li>Lær at forebygge og håndtere konflikter</li>
                                 <li>Lær at hjælpe dit barn med at regulere følelser</li>
                             </ul>
                         </div>
+                        <h4>Jeg tilrettelægger <u>altid</u> forløbet sammen med jer og jeres familie.</h4>
                     </article>
                 </section>
                 <section className="illustration">

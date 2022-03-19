@@ -5,7 +5,7 @@ import "./quote.css";
 const Quote = () => {
     const quotes = [
         'Vi havde aldrig troet at der fandtes en som Lasse der kunne redde vores familie og ægteskab samtidigt',
-        'Alle familier med ADHD burde have tilbud og "deres egen Lasse"',
+        'Alle familier med ADHD og autisme burde have "deres egen Lasse", han har reddet vores familie og ægteskab',
         'Jeg kunne ønske at havde et billede hængende af Lasse, så kunne jeg bare kigge op på ham og forestille mig hvad han ville svare, så kunne vi hurtigt komme videre'
     ];
     const randQuote = () => {

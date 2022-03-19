@@ -50,20 +50,6 @@
     background-color: var(--info-button-bg-color-hover);
 }
 
-/* 
-.home .homepage-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin: 1rem;
-}
-
-.home .homepage-image img{
-    width: max(100%, 200px);
-    height: auto;
-} */
-
 .home .homepage-image {
     display: flex;
     align-items: center;
@@ -81,7 +67,6 @@
     .home .button-container {
         flex-direction: row;
     }
-
 }
 
 

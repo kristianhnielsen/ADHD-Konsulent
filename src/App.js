@@ -21,8 +21,10 @@ function App() {
           <Route exact path="/" component={Home} />
           
           <Route path="/radgivning">
-            <Price />
             <Consultation />
+          </Route>
+          <Route path="/pris">
+            <Price />
           </Route>
           <Route path="/about">
             <About />

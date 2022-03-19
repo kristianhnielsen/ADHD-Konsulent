@@ -13,7 +13,7 @@ const About = () => {
             <section className="left-column">
                 <Headline headline="OM" />
                 <article>
-                    <p>Lasse Nielsen har mere end 20 års erfaring som familiebehandler og konsulent i opgaver i familier der omhandler børn med ADHD/ADD og autismespektrumforstyrrelser. Her har Lasse udviklet flere metoder der kan medvirke til at nedbringe mange af de udfordringer der er forbundet med at have et barn med ADHD eller Autisme.</p>
+                    <p>Jeg har mere end 20 års erfaring som familiebehandler og konsulent i opgaver i familier der omhandler børn med ADHD/ADD og autismespektrumforstyrrelser. Her har Lasse udviklet flere metoder der kan medvirke til at nedbringe mange af de udfordringer der er forbundet med at have et barn med ADHD eller Autisme.</p>
                     <p>Udover pædagog uddannelsen, er Lasse efteruddannet i:</p>
                     <ul>
                         <li>Systemisk familiebehandling</li>
