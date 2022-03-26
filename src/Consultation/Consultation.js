@@ -9,7 +9,7 @@ const Consultation = () => {
     return (
         <div className="consultation">
             <Helmet>
-                <title>RÅDGIVNING OG PRIS | ADHD OG AUTISME KONSULENT</title>
+                <title>RÅDGIVNING | ADHD OG AUTISME KONSULENT</title>
                 <meta name="description" content="Lær mere om redskaber og håndtering af hverdagen med ADHD og autisme, samt priser for rådgivning" />
             </Helmet>
             <Headline headline="RÅDGIVNING" />

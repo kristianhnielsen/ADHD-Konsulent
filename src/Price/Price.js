@@ -1,11 +1,17 @@
 import "./price.css";
 import Headline from "../Helpers/Headline"
 import Card from "./Card";
+import { Helmet } from "react-helmet";
+
 
 
 const Price = () => {
     return (
         <div className="price">
+            <Helmet>
+                <title>PRIS | ADHD OG AUTISME KONSULENT</title>
+                <meta name="description" content="Priser for rådgivning" />
+            </Helmet>
             <Headline headline="PRIS" />
             <div className="cards">
                 <Card title='Familie Pakke' price="4.000 kr" sessions={10} />
