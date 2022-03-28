@@ -39,10 +39,33 @@ const Consultation = () => {
             <section className="read-more">
                 <Headline headline="LÆS MERE" />
                 <div className="links">
-                    <a href="https://www.svsh.dk/" className="read-more-link">Skolen ved Sorte Hest</a>
-                    <a href="https://adhd.dk/" className="read-more-link">ADHD.dk</a>
-                    <a href="https://drrossgreene.com/" className="read-more-link">Dr. Ross Greene</a>
-                    <a href="https://eng.hejlskov.se/" className="read-more-link">Bo Hjelskov Elvén</a>
+                    <a 
+                    href="https://www.svsh.dk/" 
+                    className="read-more-link" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >Skolen ved Sorte Hest</a>
+                    
+                    <a 
+                    href="https://adhd.dk/" 
+                    className="read-more-link"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >ADHD.dk</a>
+                    
+                    <a 
+                    href="https://drrossgreene.com/" 
+                    className="read-more-link"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >Dr. Ross Greene</a>
+                    
+                    <a 
+                    href="https://eng.hejlskov.se/" 
+                    className="read-more-link"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >Bo Hjelskov Elvén</a>
                 </div>
             </section>
         </div>
