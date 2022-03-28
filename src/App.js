@@ -19,22 +19,11 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          
-          <Route path="/radgivning">
-            <Consultation />
-          </Route>
-          <Route path="/pris">
-            <Price />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
+          <Route path="/radgivning" component={Consultation} />
+          <Route path="/pris" component={Price} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/*" component={NotFound} />
         </Switch>
       </div>
     </BrowserRouter>
