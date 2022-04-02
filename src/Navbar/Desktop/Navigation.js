@@ -1,4 +1,3 @@
-
 const Navigation = () => {
     return (  
         <nav className="navbar">
@@ -7,11 +6,6 @@ const Navigation = () => {
             <a href="/pris">PRIS</a>
             <a href="/about">OM</a>
             <a href="/contact">KONTAKT</a>
-            {/* <Link to="/">HJEM</Link>
-            <Link to="/radgivning">RÅDGIVNING</Link>
-            <Link to="/pris">PRIS</Link>
-            <Link to="/about">OM</Link>
-            <Link to="/contact">KONTAKT</Link> */}
         </nav>
     );
 }
